@@ -51,6 +51,7 @@
 
 .card__subtitle {
     font-family: "Smooch Sans", sans-serif;
+    color: aquamarine ;
 }
 
 .card__date {
@@ -85,6 +86,7 @@
 
 .cardfirst__subtitle {
     font-family: "Edu VIC WA NT Hand", cursive;
+     color: aquamarine ;
 }
 
 .cardfirst__date {
@@ -119,6 +121,7 @@
 
 .cardsecond__subtitle {
     font-family: "Creepster", system-ui;
+     color: aquamarine ;
 }
 
 .cardsecond__date {
@@ -153,6 +156,7 @@
 
 .cardthird__subtitle {
     font-family: "Playwrite NZ Guides", cursive;
+     color: aquamarine ;
 }
 
 .cardthird__date {
