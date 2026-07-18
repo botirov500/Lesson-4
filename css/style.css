@@ -1,5 +1,176 @@
-*{
+/* Smooch Sans */
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Smooch+Sans:wght@100..900&display=swap');
+/* Galindo */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Galindo&display=swap');
+/* Creepster */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* Playwrite New Zealand Guides */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+/* Cherish */
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+/* Jersey 10 Charted */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+/* Sofia */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* Cherish */
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+
+.title {
+    color: blue;
+}
+
+.titlefirst {
+    color: red;
+}
+
+.titlesecond {
+    color: yellow;
+}
+
+.card {
+    border: 1px solid;
+    background-color: azure;
+}
+
+.card__img {
+     width: 498px;
+    height: 200px;
+}
+
+.card__subtitle {
+    font-family: "Smooch Sans", sans-serif;
+}
+
+.card__date {
+    font-family: "Cherish", cursive;
+}
+
+.card__text {
+    font-family: "Cherish", cursive;
+}
+
+.card__text--asistant {
+    font-family: "Cherish", cursive;
+}
+
+.card__btn {
+    padding: 6px 30px;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Cherish", cursive;
+}
+
+.cardfirst {
+    border: 1px solid;
+    background-color: azure;
+}
+
+.cardfirst__img {
+ width: 498px;
+    height: 200px;
+}
+
+.cardfirst__subtitle {
+    font-family: "Edu VIC WA NT Hand", cursive;
+}
+
+.cardfirst__date {
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+.cardfirst__text {
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+.cardfirst__text--asistant {
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+.cardfirst__btn {
+    padding: 6px 30px;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+.cardsecond {
+    border: 1px solid;
+    background-color: azure;
+}
+
+.cardsecond__img {
+    width: 498px;
+    height: 200px;
+}
+
+.cardsecond__subtitle {
+    font-family: "Creepster", system-ui;
+}
+
+.cardsecond__date {
+    font-family: "Sofia", cursive;
+}
+
+.cardsecond__text {
+    font-family: "Sofia", cursive;
+}
+
+.cardsecond__text--asistant {
+    font-family: "Sofia", cursive;
+}
+
+.cardsecond__btn {
+    padding: 6px 30px;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Sofia", cursive;
+}
+
+.cardthird {
+    border: 1px solid;
+    background-color: azure;
+}
+
+.cardthird__img {
+     width: 498px;
+    height: 200px;
+}
+
+.cardthird__subtitle {
+    font-family: "Playwrite NZ Guides", cursive;
+}
+
+.cardthird__date {
+    font-family: "Cherish", cursive;
+}
+
+.cardthird__text {
+    font-family: "Cherish", cursive;
+}
+
+.cardthird__text--asistant {
+    font-family: "Cherish", cursive;
+}
+
+.cardthird__btn {
+    padding: 6px 30px;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: "Cherish", cursive;
 }
